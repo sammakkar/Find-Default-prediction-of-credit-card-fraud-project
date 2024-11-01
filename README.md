@@ -67,3 +67,30 @@ In this project, we developed and evaluated multiple machine learning models to 
 5. Data-Driven Decision Making: Insights gained from the fraud detection system can inform business strategies, marketing efforts, and customer relationship management by identifying patterns in consumer behavior.
 
 By leveraging advanced fraud detection techniques, organizations can not only protect themselves from financial risks but also enhance their overall operational framework and customer experience.
+
+
+## Data Files
+Due to file size limitations, the dataset files have been compressed into a `.zip` archive. You will need to decompress the file before using the data in your project.
+
+### Compressed File
+- **Filename**: `dataset(s).zip`
+- **Contents**:
+  - `cleaned_dataset.csv`
+  - `credit card.csv`
+
+### How to Decompress the File
+To extract the contents of the `.zip` file, follow these steps:
+
+#### Using a File Explorer
+- **Windows**:
+  1. Right-click on `compressed_files.zip`.
+  2. Select "Extract All" and choose the destination folder.
+- **macOS**:
+  1. Double-click on `compressed_files.zip` to extract its contents.
+- **Linux**:
+  1. Right-click on `compressed_files.zip` and select "Extract Here" or use your preferred extraction tool.
+
+#### Using Command Line
+- **Windows**:
+  ```bash
+  tar -xf compressed_files.zip

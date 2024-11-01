@@ -70,27 +70,20 @@ By leveraging advanced fraud detection techniques, organizations can not only pr
 
 
 ## Data Files
-Due to file size limitations, the dataset files have been compressed into a `.zip` archive. You will need to decompress the file before using the data in your project.
+Due to file size limitations, the dataset files have been compressed into a `.raa` archive. You will need to decompress the file before using the data in your project.
 
 ### Compressed File
-- **Filename**: `dataset(s).zip`
+- **Filename**: `dataset(s).rar`
 - **Contents**:
   - `cleaned_dataset.csv`
   - `credit card.csv`
 
-### How to Decompress the File
-To extract the contents of the `.zip` file, follow these steps:
+## How to Decompress the .rar File
+To extract the contents of the `.rar` file, you may need to install a tool that supports `.rar` extraction.
 
-#### Using a File Explorer
-- **Windows**:
-  1. Right-click on `compressed_files.zip`.
-  2. Select "Extract All" and choose the destination folder.
-- **macOS**:
-  1. Double-click on `compressed_files.zip` to extract its contents.
-- **Linux**:
-  1. Right-click on `compressed_files.zip` and select "Extract Here" or use your preferred extraction tool.
-
-#### Using Command Line
-- **Windows**:
+### Extraction Tools
+- **Windows**: Use [WinRAR](https://www.win-rar.com/) or [7-Zip](https://www.7-zip.org/).
+- **macOS**: Use [Keka](https://www.keka.io/) or **The Unarchiver** from the Mac App Store.
+- **Linux**: Install `unrar` using your package manager (e.g., `sudo apt-get install unrar`) and use:
   ```bash
-  tar -xf compressed_files.zip
+  unrar x yourfile.rar

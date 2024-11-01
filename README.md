@@ -14,7 +14,7 @@ We have to build a classification model to predict whether a transaction is frau
 - **notebooks**: Jupyter notebooks for exploratory data analysis and model development.
 - **visula**: Contains performance evaluation reports, visualisations and eda plots.
 - **models**: Machine learning models used for modelling.
-- **README**: This file providing an overview of the project.
+- **requirements.txt**: This file contains required packages along with their version
 
 ## Dataset
 The dataset used in this project is a collection of credit card transactions from September 2013. It contains 284,807 transactions, of which 492 are identified as fraudulent. The dataset includes 23 features related to transaction details, excluding sensitive information like card numbers.
@@ -67,23 +67,3 @@ In this project, we developed and evaluated multiple machine learning models to 
 5. Data-Driven Decision Making: Insights gained from the fraud detection system can inform business strategies, marketing efforts, and customer relationship management by identifying patterns in consumer behavior.
 
 By leveraging advanced fraud detection techniques, organizations can not only protect themselves from financial risks but also enhance their overall operational framework and customer experience.
-
-
-## Data Files
-Due to file size limitations, the dataset files have been compressed into a `.raa` archive. You will need to decompress the file before using the data in your project.
-
-### Compressed File
-- **Filename**: `dataset(s).rar`
-- **Contents**:
-  - `cleaned_dataset.csv`
-  - `credit card.csv`
-
-## How to Decompress the .rar File
-To extract the contents of the `.rar` file, you may need to install a tool that supports `.rar` extraction.
-
-### Extraction Tools
-- **Windows**: Use [WinRAR](https://www.win-rar.com/) or [7-Zip](https://www.7-zip.org/).
-- **macOS**: Use [Keka](https://www.keka.io/) or **The Unarchiver** from the Mac App Store.
-- **Linux**: Install `unrar` using your package manager (e.g., `sudo apt-get install unrar`) and use:
-  ```bash
-  unrar x yourfile.rar
